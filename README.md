@@ -1,7 +1,6 @@
 # Bedrock Triage Agent
 
-A lightweight **Java 17 / Spring Boot 3** application that classifies a free-text issue into a **Category**, **Severity**, and **Summary** using **Amazon Bedrock** (Anthropic Claude 3 Haiku). 
-It ships with a minimal web UI and a simple JSON API.
+A lightweight **Java 17 / Spring Boot 3** application that **classifies** free-text issues by **Category** and **Severity**, and **generates** a concise **triage summary** using **Amazon Bedrock** (Anthropic Claude 3 Haiku). **Designed to scale** (target: **10,000+ triage requests/day**) via stateless endpoints and horizontal scaling. It ships with a minimal web UI and a simple JSON API.
 
 ---
 ## Quickstart (no AWS required)
